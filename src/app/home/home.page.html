@@ -1,20 +1,53 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" padding>
+  <ion-slides pager="true" [options]="slideOpts" >
+    <ion-slide class="grd"> 
+      <h1>slide 1</h1>
+    </ion-slide>
+    <ion-slide class="grd">
+      <h1>Slide 2</h1>
+    </ion-slide>
+    <ion-slide class="grd">
+      <h1>Slide 3</h1>
+    </ion-slide>
+  </ion-slides>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-card >
+    <ion-card-header>
+      <ion-card-subtitle>Tagihan Anda Bulan</ion-card-subtitle>
+      <ion-card-title>Rp</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Bayar tagihan anda sebelum
+    </ion-card-content>
+  </ion-card>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col class="ion-align-self-start">
+        <ion-card class="crd">
+          <ion-card-content>
+            1
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col class="ion-align-self-center">
+        <ion-card class="crd">
+          <ion-card-content>
+            2
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col class="ion-align-self-end">
+        <ion-card class="crd">
+          <ion-card-content>
+            3
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  
+
 </ion-content>
