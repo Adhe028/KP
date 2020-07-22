@@ -17,8 +17,8 @@ const routes: Routes = [
         loadChildren: () => import('../profil/profil.module').then(m => m.ProfilPageModule)
       },
       {
-        path: 'tagihan',
-        loadChildren: () => import('../tagihan/tagihan.module').then(m => m.TagihanPageModule)
+        path: 'pengaduan',
+        loadChildren: () => import('../pengaduan/pengaduan.module').then(m => m.PengaduanPageModule)
       },
       {
         path: 'pengaturan',

@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { TagihanPageRoutingModule } from './tagihan-routing.module';
+import { PengaduanPageRoutingModule } from './pengaduan-routing.module';
 
-import { TagihanPage } from './tagihan.page';
+import { PengaduanPage } from './pengaduan.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    TagihanPageRoutingModule
+    PengaduanPageRoutingModule
   ],
-  declarations: [TagihanPage]
+  declarations: [PengaduanPage]
 })
-export class TagihanPageModule {}
+export class PengaduanPageModule {}

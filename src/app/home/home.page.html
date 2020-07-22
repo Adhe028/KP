@@ -1,4 +1,17 @@
 <ion-content [fullscreen]="true" padding>
+
+  <ion-fab vertical="top" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="notifications-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-fab vertical="top" horizontal="start" slot="fixed">
+    <ion-fab-text>
+      <h2>Hallo User</h2>
+    </ion-fab-text>
+  </ion-fab>
+
   <ion-slides pager="true" [options]="slideOpts" >
     <ion-slide class="grd"> 
       <h1>slide 1</h1>
@@ -21,6 +34,12 @@
       Bayar tagihan anda sebelum
     </ion-card-content>
   </ion-card>
+
+  <ion-item >
+    <ion-label>
+      Daftar Paket
+    </ion-label>
+  </ion-item>
 
   <ion-grid>
     <ion-row>
